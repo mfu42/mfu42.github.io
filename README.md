@@ -1,26 +1,8 @@
 # Portfolio site
 
-Static site — no build step. Structure:
+WIP! static site
 
-```
-/
-├── index.html                     homepage (link list)
-├── /assets/
-│   ├── css/style.css               shared styles for every page
-│   ├── images/                     screenshots, thumbnails
-│   └── videos/                     screen captures of demos
-└── /projects/
-    ├── terrain-shader/index.html   example project page
-    └── cornell-box/index.html      example project page
-```
-
-## Adding a new project
-
-1. Duplicate `/projects/terrain-shader/` into a new folder, e.g. `/projects/fluid-sim/`.
-2. Edit the `<title>`, `<h1>`, meta tags, and body text.
-3. Drop a screenshot/video into `/assets/images/` or `/assets/videos/` and reference it
-   in the `.media` block (an `<img>` or `<video>` tag instead of the placeholder text).
-4. Add a new `<li>` on the homepage (`index.html`) pointing to `projects/fluid-sim/`.
+AI notes:
 
 ## Adding a live WebGL/WebAssembly demo
 
